@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>效果</title>
+	<meta name="description" content="js星级评论打分系统，制作鼠标滑过星级提示星级描述，点击星级评论打分效果。js代码" />
+
+<style type="text/css">
+	* {margin: 0;padding: 0;list-style-type: none;}
+	body {color: #666;font: 12px/1.5 Arial;}
+	/* star */
+	#star {
+		position: relative;
+		width: 600px;
+		margin: 20px auto;
+		height: 24px;
+	}
+	
+	#star ul,
+	#star span {
+		float: left;
+		display: inline;
+		height: 19px;
+		line-height: 19px;
+	}
+	
+	#star ul {
+		margin: 0 10px;
+	}
+	
+	#star li {
+		float: left;
+		width: 24px;
+		cursor: pointer;
+		text-indent: -9999px;
+		background: url(images/star.png) no-repeat;
+	}
+	
+	#star strong {
+		color: #f60;
+		padding-left: 10px;
+	}
+	
+	#star li.on {
+		background-position: 0 -28px;
+	}
+</style>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/more-starts.js"></script>
+</head>
+<body>
+<div class="BOX">
+
+
+	<div id="star" class="">
+		<span>jQuery星级评分:</span>
+		<ul class="star_UL" sid="0">
+			<li><a href="javascript:;">1</a></li>
+			<li><a href="javascript:;">2</a></li>
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li>
+		</ul>
+		<span  class="star_result_span">
+			<strong></strong>&nbsp;&nbsp;<a></a>
+		</span>
+	</div>
+	
+	<div id="star" class="">
+		<span>jQuery星级评分:</span>
+		<ul class="star_UL" sid="0">
+			<li><a href="javascript:;">1</a></li>
+			<li><a href="javascript:;">2</a></li>
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li>
+		</ul>
+		<span  class="star_result_span">
+			<strong></strong>&nbsp;&nbsp;<a></a>
+		</span>
+	</div>
+	
+	<div id="star" class="">
+		<span>jQuery星级评分:</span>
+		<ul class="star_UL" sid="0">
+			<li><a href="javascript:;">1</a></li>
+			<li><a href="javascript:;">2</a></li>
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li>
+		</ul>
+		<span  class="star_result_span">
+			<strong></strong>&nbsp;&nbsp;<a></a>
+		</span>
+	</div>
+
+	<div id="star" class="">
+		<span>jQuery星级评分:</span>
+		<ul class="star_UL" sid="0">
+			<li><a href="javascript:;">1</a></li>
+			<li><a href="javascript:;">2</a></li>
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li>
+		</ul>
+		<span  class="star_result_span">
+			<strong></strong>&nbsp;&nbsp;<a></a>
+		</span>
+	</div>
+</div>
+
+</body>
+</html>
